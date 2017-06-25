@@ -1,0 +1,126 @@
+/* You can add global styles to this file, and also import other style files */
+header {
+  display:block;
+  width:100%;
+  height:150px;
+  background:#00eeee;
+  position:relative;
+}
+
+header .logo img {
+  position:absolute;
+  left:10px;
+  top: 50%;
+
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translate(-50%);
+}
+
+body {
+  font-size:18px;
+  line-height:22px;
+  color:#010000;
+  max-width:1920px;
+  margin: 0 auto;
+  padding: 0;
+  background: #e6e6e6e6;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color:#010000;
+  margin: 0 0 20px 0;
+  padding:0;
+  display:block;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 22px;
+  color: #010000;
+  cursor:pointer;
+}
+
+a:hover {
+  color: #ff1755;
+}
+
+a, a:hover {
+  -webkit-transition: all -4s ease-in-out;
+  -moz-transion: all .4s ease-in-out;
+  transion: all .4s ease-in-out;
+}
+
+#container {
+  width: 100%;
+  max-width: 1345px;
+  margin: 0 auto;
+  padding:30px 0 ;
+  background:#ffffff;
+}
+
+#container .main {
+  display:block;
+  width:100%;
+  padding: 0 10px;
+  margin: 35px 0;
+}
+
+@media only screen and (max-width: 1345px) {
+  #container {
+    width:auto;
+    margin: 0 3%;
+  }
+}
+
+nav {
+  display: inline-block;
+  width:100%;
+  font-size:0;
+  line-height:0;
+  margin: 0 auto;
+  padding: 0;
+  background: #0000ff;
+  color:#ff0000;
+
+}
+
+nav,
+nav ul {
+  margins:0;
+  padding:0;
+}
+
+nav ul li {
+  display: inline;
+  float: left;
+  margin: 0 5px 0 0 ;
+}
+
+nav ul li a {
+  display:block;
+  font-size: 16px;
+  line-height: normal;
+  text-align:center;
+  color: #ffffff;
+  background: #0000ff;
+  padding: 15px 20px;
+}
+
+nav ul li a:hover {
+  background:#000000;
+  color:#FF0000;
+  }
+
+app-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background:#00eeee;
+  color:#010000;
+  min-height:50px;
+}
